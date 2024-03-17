@@ -32,6 +32,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -63,8 +65,8 @@ img {
 }
 
 .current {
-  position: relative;
   color: #404bbf;
+  position: relative;
 }
 .current::after {
   content: "";
@@ -132,7 +134,7 @@ img {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
-  /* block-size: cover; */
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
   margin: auto;
@@ -515,7 +517,7 @@ display: ;
   background-color: #31d0aa;
 }
 .flow-contact-icon {
-  /* /* fill: #f4f4fd;  */
+  fill: #f4f4fd;
 }
 /* n: row;
     gap: 24px;
